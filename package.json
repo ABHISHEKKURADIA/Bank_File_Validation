@@ -1,0 +1,20 @@
+{
+  "name": "bank_file_validation",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/ABHISHEKKURADIA/Bank_File_Validation#readme",
+  "bugs": {
+    "url": "https://github.com/ABHISHEKKURADIA/Bank_File_Validation/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABHISHEKKURADIA/Bank_File_Validation.git"
+  },
+  "license": "ISC",
+  "author": "Abhishek",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
