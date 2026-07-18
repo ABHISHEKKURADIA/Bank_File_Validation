@@ -22,5 +22,13 @@ for (let i = 1; i < data.length; i++) {
     }
 }
 
+Object.keys(dict).forEach(transaction => {
+    let count = dict[transaction]
+    if (count > 1) {
+        console.log(`Account number ${transaction.slice(0,8)} having sort code ${transaction.slice(9,17)} has appeared ${count} times.`)
+    }
+
+});
+
 
 console.timeEnd("Algo")
