@@ -24,5 +24,3 @@ for (let i = 1; i < data.length; i++) {
 
 
 console.timeEnd("Algo")
-
-module.exports = validateBankData;
